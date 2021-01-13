@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+  background: url(./assets/pokemon-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Courier, monospace;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-content {
+  margin-left: 24vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
 }
-
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-thumb {
+  background: red;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: rgb(201, 18, 18);
+}
+::-webkit-scrollbar-track {
+  background: #FFCB05;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #FFCB05;
+}
+::-webkit-scrollbar-track:active {
+  background: #d3a900;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
 }

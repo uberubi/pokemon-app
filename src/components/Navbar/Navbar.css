@@ -1,0 +1,37 @@
+.navbar-wrapper {
+  position: fixed;
+  width: 24vw;
+  min-width: 120px;
+  height: 100%;
+  background: #00aeff;
+  overflow-y: scroll;
+  padding-left: 2vw;
+}
+.navbar-wrapper input {
+ outline: none;
+ width: 80%;
+}
+
+
+.navbar-wrapper h1 {
+  color: #FFCB05;
+  text-transform: uppercase;
+}
+
+.navbar-wrapper a {
+  display: flex;
+  text-decoration: none;
+  padding-top: 10px;
+  text-overflow: ellipsis;
+
+}
+
+.navbar-wrapper img {
+  display: inline;
+  width: 16px;
+  height: 16px;
+}
+
+.navbar-wrapper p {
+  margin-left: 1vw;
+}

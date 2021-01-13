@@ -1,0 +1,44 @@
+.pokemon-info-wrapper button {
+  position: absolute;
+  top: 10vh;
+  left: 38vw;
+  background: none;
+  outline: none;
+  border: 4px solid black;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.pokemon-info-wrapper button:hover {
+  background: #ffcb05;
+} 
+
+.pokemon-info__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100vh;
+  background: rgba(255, 211, 67, 0.5);
+}
+
+.pokemon-info__card h1 {
+  margin-bottom: 5vh;
+  text-transform: uppercase;
+}
+
+.pokemon-info__card-text {
+  border: 1px solid black;
+  padding: 1vh;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.pokemon-info__card img {
+  max-height: 100px;
+  max-width: 100px;
+  margin-bottom: 20px;
+}
